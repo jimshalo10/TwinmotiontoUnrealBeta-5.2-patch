@@ -1,4 +1,5 @@
 #TwinmotiontoUnrealBeta-5.2-patch
+
 This patch is for the Twinmotion for Unreal 5.2 Epic binary when Downloaded from the Epic Games Launcher version 15.2 and above 
 
 To check see in bottom of Launcher Settings page
@@ -9,7 +10,9 @@ Exit Unreal 5.2 Epic binary before starting this procedure
 
 To download this click the green dropdown marked "Code" above and select "2Download zip". DONT attempt to use Git clone it will fail!
 
-This will produce a 554 MB zip file in your Download directory called "TwinmotiontoUnrealBeta-5.2-patch-TwinmotiontoUnrealBeta-5.2-patch.zip"
+This will produce a 554 MB zip file in your Download directory called 
+
+"TwinmotiontoUnrealBeta-5.2-patch-TwinmotiontoUnrealBeta-5.2-patch.zip"
 
 Navigate to your 5.2 binary distribution at "C:\Program Files\Epic Games\UE_5.2" or "D:\Program Files\Epic Games\UE_5.2" depending where you installed UE 5.2
 
@@ -19,12 +22,15 @@ Extract with a zip extractor, like WinRAR, or the Windows Explorer navigate to t
 
 In the "C:\Program Files\Epic Games\UE_5.2\Engine\Plugins" you should see the Plugin Directory "TwinmotiontoUnrealBeta"
 
-If you do not see that the you need to check you zip extract was correct.
+If you do not see that the you need to check the way your zip extract was correct.
 
 The installation and usage tutorial is available at 
+
 https://dev.epicgames.com/community/learning/tutorials/K8nX/twinmotion-to-unreal-engine-5-1-5-2-for-virtual-camera-workflows
 
-There are several inportant amendments to adding plugins below described in section 10 of the tutorial
+There are several inportant amendments to adding plugins below described in the tutorial section 10
+
+Section 10 Once the Plugin window opens, enable the following plugins: 
 
 The plugins can be added together, without restarting editor each time, from UE Editor navigate to "Edit ->Plugins"
 
@@ -49,7 +55,7 @@ Follow the rest of tutorial to export from Twinmotion and Import using Datasmith
 Changes made to make original 5.1 work with 5.2
 ===============================================
 
-Edit with Nnotepad file TwinmotionToUnrealContent.uplugin 
+Edit with Notepad file TwinmotionToUnrealContent.uplugin 
 
 Change the line 
 	"EngineVersion": "5.1.0",
