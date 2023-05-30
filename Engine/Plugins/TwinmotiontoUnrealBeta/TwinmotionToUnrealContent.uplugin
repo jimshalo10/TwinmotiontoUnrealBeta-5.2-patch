@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 4,
+	"VersionName": "2023.1",
+	"FriendlyName": "Datasmith Twinmotion Content",
+	"Description": "Twinmotion library assets for importing Datasmith files that were exported from Twinmotion",
+	"Category": "Twinmotion",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "http://epicgames.com",
+	"DocsURL": "https://epicgames.box.com/s/m4sk9lwzh5m0v05o9qev9gnlqs3wojlh",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/datasmith-twinmotion-content-for-unreal-engine",
+	"SupportURL": "https://twinmotionhelp.epicgames.com/",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Mac",
+		"Linux"
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
